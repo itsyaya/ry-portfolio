@@ -1,0 +1,140 @@
+body {
+  background-image: url("/assets/fotis-fotopoulos.jpg");
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: hsl(0, 19%, 95%);
+}
+
+.bgfor {
+  background-image: url("/assets/bg.pic.png");
+}
+
+a {
+  color: #0fa3de;
+  text-decoration: none;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50%;
+}
+
+a:hover {
+  text-decoration: none;
+  color : #000000;
+  text-shadow: 5px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  box-shadow: 0 2px 0 #ccc;
+}
+
+p {
+  margin-bottom: 5px;
+}
+.img4 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin-left: 310px;
+}
+
+.name {
+  margin-left: 450px;
+  color: white;
+}
+
+.logo img,
+.dashboard-logo img {
+  max-width: 60px;
+  border-radius: 50%;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile {
+  margin-bottom: 20px;
+}
+
+.about, .bio {
+  display: inline-block;
+  vertical-align: top;
+  width: clac(50% - 10px);
+  margin-right: 20px;
+}
+
+.about {
+  margin-bottom: 20px;
+}
+
+.bio {
+  margin-bottom: 20px;
+}
+
+.projects {
+  margin-bottom: 20px;
+}
+
+.project-images img,
+.project-mages1 img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.education {
+  margin-bottom: 20px;
+}
+
+.education img {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+
+.contact {
+  margin-bottom: 20px;
+}
+
+
+button {
+  border: none;
+  background-color: #aac6e6;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 0 #272626;
+  margin: 0 10px;
+  justify-content: center;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.button-container button:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ccc;
+}
